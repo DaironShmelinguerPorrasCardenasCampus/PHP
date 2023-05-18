@@ -95,13 +95,13 @@ echo $producto->setMade("Charalá")."<br>";
 echo $producto->setCantidad("30 unidades")."<br>";
 
 
-echo $producto2->setNombre("Leche")."<br>";
-echo $producto2->setPrecio("3.200")."<br>";
-echo $producto2->setId("25")."<br>";
-echo $producto2->setReferencia("159515")."<br>";
-echo $producto2->setTipo("Canasta Urbana")."<br>";
-echo $producto2->setMade("Parámo")."<br>";
-echo $producto2->setCantidad("150 unidades")."<br>";
+echo $producto2->getNombre()."<br>";
+echo $producto2->getPrecio()."<br>";
+echo $producto2->getId()."<br>";
+echo $producto2->getReferencia()."<br>";
+echo $producto2->getTipo()."<br>";
+echo $producto2->getMade()."<br>";
+echo $producto2->getCantidad()."<br>";
 
 //getters
 
